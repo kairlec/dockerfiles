@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: /nginx-quic
+    schedule:
+      interval: "daily"

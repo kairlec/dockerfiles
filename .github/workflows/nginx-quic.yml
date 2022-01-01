@@ -9,7 +9,7 @@ on:
       - .github/workflows/nginx-quic.yml
   workflow_dispatch:
   schedule:
-    - cron: "0 8 * * 1"
+    - cron: "0 0 * * 1"
 
 env:
   BUILD_VERSION: "git"

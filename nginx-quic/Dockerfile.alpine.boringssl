@@ -59,7 +59,7 @@ RUN apk add --no-cache mercurial perl-dev pcre2-dev zlib-dev libxslt-dev gd-dev 
 
 
 #FROM nginx
-FROM alpine:3.16.0
+FROM alpine:3.16.1
 
 LABEL org.opencontainers.image.authors "Kairlec<kairlec@users.noreply.github.com>"
 LABEL org.opencontainers.image.url "https://github.com/kairlec/dockerfiles"

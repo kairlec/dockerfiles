@@ -156,8 +156,6 @@ jobs:
           labels: ${{ steps.docker_meta.outputs.labels }}
           tags: |
             docker.io/${{ env.REPOSITORY }}:${{ env.BUILD_VERSION }}-alpine-${{ matrix.quic }}
-            docker.io/${{ env.REPOSITORY }}:${{ env.BUILD_VERSION }}-alpine-${{ matrix.quic }}
             docker.io/${{ env.REPOSITORY }}:latest
-            ghcr.io/${{ env.REPOSITORY }}:${{ env.BUILD_VERSION }}-alpine-${{ matrix.quic }}
             ghcr.io/${{ env.REPOSITORY }}:${{ env.BUILD_VERSION }}-alpine-${{ matrix.quic }}
             ghcr.io/${{ env.REPOSITORY }}:latest

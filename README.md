@@ -1,7 +1,6 @@
 # dockerfiles
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![GitHub Super-Linter](https://github.com/kairlec/dockerfiles/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/kairlec/dockerfiles/actions/workflows/linter.yml)
 
 This repo contains Dockerfiles for applications that I find useful. 
 

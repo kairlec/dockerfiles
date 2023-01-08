@@ -75,7 +75,9 @@ COPY --from=build /etc/ssl/certs /etc/ssl/certs
 
 VOLUME ["/var/cache/nginx"]
 
-EXPOSE 80 443
+RUN mkdir -p /var/log/nginx
+
+EXPOSE 80 443 443/udp
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 
